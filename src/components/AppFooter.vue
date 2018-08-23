@@ -1,6 +1,8 @@
 <template>
-<div class="footer-bar">
-  this is a footer-bar
+<div class="footer-bar py-3">
+  <div>
+    this is a footer-bar
+  </div>
 </div>
 </template>
 
@@ -13,9 +15,6 @@ export default {
 <style scoped>
 .footer-bar {
   text-align: center;
-  margin-top: 100px;
   background-color: aliceblue;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 </style>
